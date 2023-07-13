@@ -195,7 +195,7 @@ a {
     }
   
     .left {
-      border-radius: var(--border-radius);
+      border-radius: 30px;
       flex: 2;
       z-index: 1;
       transform: translateX(3%);
@@ -203,8 +203,8 @@ a {
     }
     .right {
       flex: 3;
-      border-top-right-radius: var(--border-radius);
-      border-bottom-right-radius: var(--border-radius);
+      border-top-right-radius: 30px;
+      border-bottom-right-radius: 30px;
       box-shadow: 1px 10px 20px hsla(224, 30%, 27%, .3);;
     }
   }
